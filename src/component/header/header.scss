@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 10px;
+  color: white;
+
+  .left-side {
+    display: flex;
+    margin-left: 30px;
+    .menu {
+      margin-right: 30px;
+    }
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+
+    .cart-icon {
+      margin-right: 60px;
+    }
+  }
+}
